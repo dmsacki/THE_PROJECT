@@ -1,0 +1,9 @@
+import pandas as pd
+
+# Load data
+
+data = pd.read_csv('Data.csv')
+
+# Preview the datasets
+print(variable_definitions.head())
+print(data.head())
